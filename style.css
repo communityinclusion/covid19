@@ -1,5 +1,5 @@
 .copy-block {
-a {color: navy;}
+    a {color: navy;}
   // This font-size and line-height set the
   // basis for all children of .copy-block.
   font-size: 1em;
@@ -76,4 +76,5 @@ a {color: navy;}
   figcaption {
     margin-top: 0.5em;
   }
+
 }
