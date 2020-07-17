@@ -2,60 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>COVID-19 Publications and Resources</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>COVID-19 Publications and Resources</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
 
-  <!-- Font Awesome if you need it
+	<!-- Font Awesome if you need it
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
-  <!--Replace with your tailwind.css once created-->
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+	<!--Replace with your tailwind.css once created-->
 
-	 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
-	
-	<style>
 
-	body {font-family: Montserrat,sans-serif;}
+	<style>
+		body {
+			font-family: Montserrat, sans-serif;
+		}
 
 		.gradient {
 			background: linear-gradient(90deg, #609539 0%, #FDCA30 100%);
 		}
-	#header img {display:inline;}
-	.pubs img {max-width:84px;}
-	a {color:rgb(44	82	130	);
-	}
+
+		#header img {
+			display: inline;
+		}
+
+		.pubs img {
+			max-width: 84px;
+		}
+
+		a {
+			color: rgb(44 82 130);
+		}
 	</style>
-<!--<link rel="stylesheet" href="./style.css">-->
+	<!--<link rel="stylesheet" href="./style.css">-->
 </head>
 
-<body class="leading-normal tracking-normal text-black gradient" >
+<body class="leading-normal tracking-normal text-black gradient">
 
-<!--Nav-->
-<nav id="header" class="fixed w-full z-30 top-0 text-white">
+	<!--Nav-->
+	<nav id="header" class="fixed w-full z-30 top-0 text-white">
 
-	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-			
-		<div class="pl-4 flex items-center">
-			<a class="toggleColour text-blue-800 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
-				<!--Icon from: http://www.potlabicons.com/ -->
-	<img src="images/ici-sm.png" alt="ici logo"> COVID-19
-			</a>
-		</div>
+		<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 
-		<div class="block lg:hidden pr-4">
-			<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
-				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-			</button>
-		</div>
+			<div class="pl-4 flex items-center">
+				<a class="toggleColour text-blue-800 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+					href="#">
+					<!--Icon from: http://www.potlabicons.com/ -->
+					<img src="images/ici-sm.png" alt="ici logo"> COVID-19
+				</a>
+			</div>
 
-		<!--<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+			<div class="block lg:hidden pr-4">
+				<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
+					<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<title>Menu</title>
+						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+					</svg>
+				</button>
+			</div>
+
+			<!--<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
 			<ul class="list-reset lg:flex justify-end flex-1 items-center">
 				<li class="mr-3">
 					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
@@ -69,391 +82,473 @@
 			</ul>
 			
 		</div>-->
+		</div>
+
+		<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+	</nav>
+
+
+
+
+	<!--Hero-->
+	<div class="pt-24">
+
+		<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+			<!--Left Col-->
+			<div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
+				<p class="uppercase tracking-loose w-full">The Institute for Community Inclusion</p>
+				<h1 class="my-4 text-4xl font-bold leading-tight">COVID-19 Publications and Resources</h1>
+				<p class="leading-normal text-2xl mb-8">Due to the COVID-19 pandemic, public agencies, day and
+					employment service providers, people with disabilities and family members have had to quickly adjust
+					to changes in how services and supports are provided. The publications and resources provided here
+					have been developed to help guide professionals, individuals, and families through this challenging
+					time as we develop new approaches to providing day and employment services, vocational
+					rehabilitation, and supporting community life engagement.
+
+				</p>
+				<p class="leading-normal text-2xl mb-8">
+					We welcome your feedback and ideas as we all work together to provide services that help people to
+					continue to work towards their goals while staying safe and healthy. </p>
+
+
+
+				<!--<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>-->
+
+			</div>
+			<!--Right Col-->
+			<div class="w-full md:w-2/5 py-6 text-center">
+				<img class="w-full md:w-4/5 z-50" src="images/light-globe.png" alt="illustration lightbulb">
+			</div>
+
+		</div>
+
 	</div>
-	
-	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
-</nav>
 
 
-
-
-<!--Hero-->
-<div class="pt-24">
-
-	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-		<!--Left Col-->
-		<div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
-			<p class="uppercase tracking-loose w-full">The Institute for Community Inclusion</p>
-			<h1 class="my-4 text-4xl font-bold leading-tight">COVID-19 Publications and Resources</h1>
-			<p class="leading-normal text-2xl mb-8">Due to the COVID-19 pandemic, public agencies, day and employment service providers, people with disabilities and family members have had to quickly adjust to changes in how services and supports are provided. The publications and resources provided here have been developed to help guide professionals, individuals, and families through this challenging time as we develop new approaches to providing day and employment services, vocational rehabilitation, and supporting community life engagement.
-
-</p>
-<p class="leading-normal text-2xl mb-8">
-We welcome your feedback and ideas as we all work together to provide services that help people to continue to work towards their goals while staying safe and healthy. </p>
-		
-			
-
-			<!--<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>-->
-			
-		</div>
-		<!--Right Col-->
-		<div class="w-full md:w-2/5 py-6 text-center">
-			<img class="w-full md:w-4/5 z-50" src="images/light-globe.png" alt="illustration lightbulb">
-		</div>
-		
+	<div class="relative -mt-12 lg:-mt-24">
+		<svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+					<path
+						d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
+						opacity="0.100000001"></path>
+					<path
+						d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+						opacity="0.100000001"></path>
+					<path
+						d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
+						id="Path-4" opacity="0.200000003"></path>
+				</g>
+				<g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+					<path
+						d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z">
+					</path>
+				</g>
+			</g>
+		</svg>
 	</div>
 
-</div>
-
-
-<div class="relative -mt-12 lg:-mt-24">
-	<svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-	<g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
-	<path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-	<path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
-	<path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
-	</g>
-	<g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
-	<path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
-	</g>
-	</g>
-	</svg>
-</div>
 
 
 
+	<section class="bg-white border-b py-8 pubs">
 
-<section class="bg-white border-b py-8 pubs">
-	
-	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
-	
-		<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Day and Employment Services Publications</h1>
-		<div class="w-full mb-4">	
-			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-		</div>
-	
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO32_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Providing Quality Services Remotely and Online</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						General guidance and strategies for provision of day and employment services. 
-					</p>
-				</a>
+		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
+
+			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">General Publications</h1>
+			<div class="w-full mb-4">
+				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO32_COVID_F.pdf"><img src="images/th/TO32_COVID_thumb.png" alt="pdf download"></a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO33_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Working During the COVID-19 Pandemic - A Guide for Informed Decision Making  </div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						Provides a systematic process for informed choice in deciding whether to work during the pandemic.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO33_COVID_F.pdf"><img src="images/th/TO33_COVID_thumb.png" alt="download Working During the COVID-19 Pandemic - A Guide for Informed Decision Making "></a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="/pdf/TO34_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Dealing with the Economic Impact of COVID-19 and Getting Financial Supports  </div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						Information to help individuals with the financial impact of COVID-19, including managing Economic Impact Payments, dealing with loss of income from employment, and accessing additional benefits and assistance.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="/pdf/TO34_COVID_F.pdf"><img src="images/th/TO34_COVID_thumb.png" alt="Dealing with the Economic Impact of COVID-19 and Getting Financial Supports"></a>
-				</div>
-			</div>
-		</div>
-
-
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO35_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Providing Employment Services for Job Seekers Remotely </div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						A guide on provision of services to individuals who are in the process of exploring employment options and moving forward on a job search, including conducting career exploration, discovery, and development of employment and job seeking skills. 
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO35_COVID_F.pdf"><img src="images/th/TO35_COVID_thumb.png" alt="pdf download Providing Employment Services for Job Seekers Remotely"></a>
-				</div>
-			</div>
-		</div>
-
-		
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="/pdf/TO36_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Using Technology to Provide Quality Services Remotely </div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						A structured approach regarding identifying and implementing technology options for provision of remote services. 
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="/pdf/TO36_COVID_F.pdf"><img src="images/th/TO36_COVID_thumb.png" alt="pdf download Using Technology to Provide Quality Services Remotely"></a>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-		
-		
-		
-
-		
-
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO37_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Program Management During COVID-19 </div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						Strategies for program managers in overseeing and maintaining ongoing program services, and managing staff, during the pandemic.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO37_COVID_F.pdf"><img src="images/th/TO37_COVID_thumb.png" alt="pdf download Program Management During COVID-19">
-				</div>
-			</div>
-		</div>
-
-		
-		
-
-		
-
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO38_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Supporting Individuals Who Are Working During COVID-19 </div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						How to continue to support individuals who are working, primarily relying on remote services, and onsite supports as needed.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-				<a href="pdf/TO38_COVID_F.pdf">
-					<img src="images/th/TO38_COVID_F_th.png" alt="pdf download">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO33_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Working During the COVID-19 Pandemic -
+							A Guide for Informed Decision Making </div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							Provides a systematic process for informed choice in deciding whether to work during the
+							pandemic.
+						</p>
 					</a>
 				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO33_COVID_F.pdf"><img src="images/th/TO33_COVID_thumb.png"
+								alt="download Working During the COVID-19 Pandemic - A Guide for Informed Decision Making "></a>
+					</div>
+				</div>
 			</div>
-		</div>
 
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO39_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Easy to Access Assistive Technology and Apps for Individual Success</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						How to identify and use technology for supporting individuals to be successful in employment and other activities. 
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-				<a href="pdf/TO39_COVID_F.pdf">
-					<img src="images/th/TO39_COVID_thumb.png" alt="pdf download">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="/pdf/TO34_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Dealing with the Economic Impact of
+							COVID-19 and Getting Financial Supports </div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							Information to help individuals with the financial impact of COVID-19, including managing
+							Economic Impact Payments, dealing with loss of income from employment, and accessing
+							additional benefits and assistance.
+						</p>
 					</a>
 				</div>
-			</div>
-		</div>
-
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO40_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Using Technology for Remote Support, Self-Management, and Success in Employment and the Community</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-A guide to remote job coaching, and use of technology by individuals to self-manage tasks and enhance overall performance.					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO40_COVID_F.pdf"><img src="images/th/TO40_COVID_F_th.png" alt="pdf download"></a>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="/pdf/TO34_COVID_F.pdf"><img src="images/th/TO34_COVID_thumb.png"
+								alt="Dealing with the Economic Impact of COVID-19 and Getting Financial Supports"></a>
+					</div>
 				</div>
 			</div>
-		</div>
+
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO39_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Easy to Access Assistive Technology and
+							Apps for Individual Success</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							How to identify and use technology for supporting individuals to be successful in employment
+							and other activities.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO39_COVID_F.pdf">
+							<img src="images/th/TO39_COVID_thumb.png" alt="pdf download">
+						</a>
+					</div>
+				</div>
+			</div>
 
 <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/CLE_issue10_V2_D2.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">A BRIEF LOOK AT COMMUNITY LIFE ENGAGEMENT</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Engage….Virtual Community Life Engagement</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-Community life engagement, or CLE, refers to how people access and participate in their communities outside of employment. This brief applies the Four Guideposts for CLE to identifying virtual opportunities for interaction and engagement. 					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/CLE_issue10_V2_D2.pdf"><img src="images/th/CLE_issue10_V2_D2_th.png" alt="pdf download"></a>
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/CLE_issue10_V2_D2.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">A BRIEF LOOK AT COMMUNITY LIFE
+							ENGAGEMENT</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Engage….Virtual Community Life
+							Engagement</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							Community life engagement, or CLE, refers to how people access and participate in their
+							communities outside of employment. This brief applies the Four Guideposts for CLE to
+							identifying virtual opportunities for interaction and engagement. </p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/CLE_issue10_V2_D2.pdf"><img src="images/th/CLE_issue10_V2_D2_th.png"
+								alt="pdf download"></a>
+					</div>
 				</div>
 			</div>
-		</div>
 
+
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO42_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Participation of People with
+							Disabilities in Online Groups and Activities</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							This publication provides guidelines for participation of people with disabilities in
+							activities with others online, and best practices in supporting them. </p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO42_COVID_F.pdf"><img src="images/th/TO42_COVID_F_th.png" alt="pdf download"></a>
+					</div>
+				</div>
+			</div>
 <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO41_COVID_F2.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Employer Engagement and Job Development During Challenging Times</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-This brief provides guidance on how to continue job development and job search activities during this time of higher unemployment and limited in-person interactions with businesses.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO41_COVID_F2.pdf"><img src="images/th/TO41_COVID_F2_th.png" alt="pdf download"></a>
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/COVID-19-Resources-National.docx"
+						class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">Other Resources</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">COVID-19 Day & Employment Services
+							Resource List</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							A collection of useful recources regarding the COVID-19 pandemic, curated by staff at the
+							ICI.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/COVID-19-Resources-National.docx"><img src="images/th/doc.png"
+								alt="doc download National Resources"></a>
+					</div>
 				</div>
 			</div>
-		</div>
-
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/TO42_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Participation of People with Disabilities in Online Groups and Activities</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-This publication provides guidelines for participation of people with disabilities in activities with others online, and best practices in supporting them.				</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/TO42_COVID_F.pdf"><img src="images/th/TO42_COVID_F_th.png" alt="pdf download"></a>
-				</div>
-			</div>
-		</div>
 
 
-
-
-
-
-
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/Technology_Assessment_Worksheet-fill_in.pdf" download="pdf/Technology_Assessment_Worksheet-fill_in.pdf" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">Fill-In Worksheet</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Technology for Remote Supports Worksheet</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						Fill-in version of worksheet in Using Technology to Provide Quality Services Remotely, for determining technology options.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/Technology_Assessment_Worksheet-fill_in.pdf"  download="pdf/Technology_Assessment_Worksheet-fill_in.pdf"><img src="images/th/Technology_Assessment_Worksheet-fill_in_th.png" alt="Technology for Remote Supports Worksheet"></a>
-				</div>
-			</div>
-		</div>
-		
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="pdf/COVID-19-Resources-National.docx" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">Other Resources</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">COVID-19 Day & Employment Services Resource List</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						A collection of useful recources regarding the COVID-19 pandemic, curated by staff at the ICI.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-					<a href="pdf/COVID-19-Resources-National.docx"><img src="images/th/doc.png" alt="doc download National Resources"></a>
-				</div>
-			</div>
-		</div>
+<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Publications for Service Providers</h1>
 			
-		
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO32_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Providing Quality Services Remotely and
+							Online</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							General guidance and strategies for provision of day and employment services.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO32_COVID_F.pdf"><img src="images/th/TO32_COVID_thumb.png" alt="pdf download"></a>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO35_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Providing Employment Services for Job
+							Seekers Remotely </div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							A guide on provision of services to individuals who are in the process of exploring
+							employment options and moving forward on a job search, including conducting career
+							exploration, discovery, and development of employment and job seeking skills.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO35_COVID_F.pdf"><img src="images/th/TO35_COVID_thumb.png"
+								alt="pdf download Providing Employment Services for Job Seekers Remotely"></a>
+					</div>
+				</div>
+			</div>
+<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="/pdf/TO36_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Using Technology to Provide Quality
+							Services Remotely </div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							A structured approach regarding identifying and implementing technology options for
+							provision of remote services.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="/pdf/TO36_COVID_F.pdf"><img src="images/th/TO36_COVID_thumb.png"
+								alt="pdf download Using Technology to Provide Quality Services Remotely"></a>
+					</div>
+				</div>
+			</div>
 
- 
-</div>
 
-</section>
-<section class="bg-white border-b py-8 ">
-	
-	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
-	
-		<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from Think College</h1>
-		<div class="w-full mb-4">	
-			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO37_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Program Management During COVID-19
+						</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							Strategies for program managers in overseeing and maintaining ongoing program services, and
+							managing staff, during the pandemic.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO37_COVID_F.pdf"><img src="images/th/TO37_COVID_thumb.png"
+								alt="pdf download Program Management During COVID-19">
+					</div>
+				</div>
+			</div>
+
+
+<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO38_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Supporting Individuals Who Are Working
+							During COVID-19 </div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							How to continue to support individuals who are working, primarily relying on remote
+							services, and onsite supports as needed.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO38_COVID_F.pdf">
+							<img src="images/th/TO38_COVID_F_th.png" alt="pdf download">
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO40_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Using Technology for Remote Support,
+							Self-Management, and Success in Employment and the Community</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							A guide to remote job coaching, and use of technology by individuals to self-manage tasks
+							and enhance overall performance. </p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO40_COVID_F.pdf"><img src="images/th/TO40_COVID_F_th.png" alt="pdf download"></a>
+					</div>
+				</div>
+			</div>
+
+<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/Technology_Assessment_Worksheet-fill_in.pdf"
+						download="pdf/Technology_Assessment_Worksheet-fill_in.pdf"
+						class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">Fill-In Worksheet</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Technology for Remote Supports
+							Worksheet</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							Fill-in version of worksheet in Using Technology to Provide Quality Services Remotely, for
+							determining technology options.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/Technology_Assessment_Worksheet-fill_in.pdf"
+							download="pdf/Technology_Assessment_Worksheet-fill_in.pdf"><img
+								src="images/th/Technology_Assessment_Worksheet-fill_in_th.png"
+								alt="Technology for Remote Supports Worksheet"></a>
+					</div>
+				</div>
+			</div>
+
+<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO41_COVID_F2.pdf" class="flex flex-wrap no-underline hover:no-underline">
+						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Employer Engagement and Job Development
+							During Challenging Times</div>
+						<p class="text-gray-800 text-base px-6 mb-5">
+							This brief provides guidance on how to continue job development and job search activities
+							during this time of higher unemployment and limited in-person interactions with businesses.
+						</p>
+					</a>
+				</div>
+				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+					<div class="flex items-center justify-center">
+						<a href="pdf/TO41_COVID_F2.pdf"><img src="images/th/TO41_COVID_F2_th.png"
+								alt="pdf download"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!--hail hail -->
+			
+
+			
+
+			
+
+
+
+
+
+
+
+			
+
+			
+
+
+
+
 		</div>
-			<p class="text-gray-800 text-base px-6 mb-5">ICI’s Think College initiative has up-to-date resources to support students with intellectual disabilities as they learn, work, and live in the time of COVID-19.</p>
-<ul class="list-disc text-gray-800 text-base px-6 mb-5">
-<li><a href="https://thinkcollege.net/think-college-news/resources-for-educators-families-adjusting-to-distance-learning">Resources for Educators & Families Adjusting to Distance Learning</a></li>
-<li><a href="https://thinkcollege.net/think-college-news/a-message-from-think-college-leadership-in-the-midst-of-the-covid-19-crisis">A Message from Think College Leadership in the Midst of the COVID-19 Crisis</a></li>
-<li><a href="https://thinkcollege.net/think-college-news/new-tips-takeaways-resources-on-current-covid-related-issues">Tips & Takeaways Resources on Current, COVID-related</a></li>
-</ul>
 
-<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from SELN</h1>
-		<div class="w-full mb-4">	
-			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+	</section>
+	<section class="bg-white border-b py-8 ">
+
+		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
+
+			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from Think
+				College</h1>
+			<div class="w-full mb-4">
+				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+			</div>
+			<p class="text-gray-800 text-base px-6 mb-5">ICI’s Think College initiative has up-to-date resources to
+				support students with intellectual disabilities as they learn, work, and live in the time of COVID-19.
+			</p>
+			<ul class="list-disc text-gray-800 text-base px-6 mb-5">
+				<li><a
+						href="https://thinkcollege.net/think-college-news/resources-for-educators-families-adjusting-to-distance-learning">Resources
+						for Educators & Families Adjusting to Distance Learning</a></li>
+				<li><a
+						href="https://thinkcollege.net/think-college-news/a-message-from-think-college-leadership-in-the-midst-of-the-covid-19-crisis">A
+						Message from Think College Leadership in the Midst of the COVID-19 Crisis</a></li>
+				<li><a
+						href="https://thinkcollege.net/think-college-news/new-tips-takeaways-resources-on-current-covid-related-issues">Tips
+						& Takeaways Resources on Current, COVID-related</a></li>
+			</ul>
+
+			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from SELN</h1>
+			<div class="w-full mb-4">
+				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+			</div>
+			<p class="text-gray-800 text-base px-6 mb-5">Resources from the State Employment Leadership Network (SELN),
+				including examples of policy directives from various states on provision of day and employment services.
+			</p>
+			<p class="text-gray-800 text-base px-6 mb-5"><a href="http://www.selnhub.org/COVID">selnhub.org/COVID</a>
+			</p>
 		</div>
-			<p class="text-gray-800 text-base px-6 mb-5">Resources from the State Employment Leadership Network (SELN), including examples of policy directives from various states on provision of day and employment services.</p>
-			<p class="text-gray-800 text-base px-6 mb-5"><a href="http://www.selnhub.org/COVID">selnhub.org/COVID</a></p>
-	</div>
 
 	</section>
 
 
-<!-- Change the colour #f8fafc to match the previous section colour -->
-<svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		<g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-			<g class="wave" fill="#f8fafc">
-				<path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
-			</g>
-			<g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-				<g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
-					<path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-					<path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
-					<path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+	<!-- Change the colour #f8fafc to match the previous section colour -->
+	<svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink">
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+				<g class="wave" fill="#f8fafc">
+					<path
+						d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z">
+					</path>
+				</g>
+				<g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+					<g
+						transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+						<path
+							d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
+							opacity="0.100000001"></path>
+						<path
+							d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+							opacity="0.100000001"></path>
+						<path
+							d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
+							opacity="0.200000003"></path>
+					</g>
 				</g>
 			</g>
 		</g>
-	</g>
-</svg>
+	</svg>
 
-<section class="container mx-auto text-center py-6 mb-12">
-
-	
+	<section class="container mx-auto text-center py-6 mb-12">
 
 
-<p class="leading-normal text-3xl mb-8">For further information on ICI’s efforts regarding COVID-19, contact David Hoff <a href="mailto:david.hoff@umb.edu" class="text-blue-800">david.hoff@umb.edu</a>.</p>		
-</section>
 
 
-<!--Footer-->
-<!--<footer class="bg-white">
+		<p class="leading-normal text-3xl mb-8">For further information on ICI’s efforts regarding COVID-19, contact
+			David Hoff <a href="mailto:david.hoff@umb.edu" class="text-blue-800">david.hoff@umb.edu</a>.</p>
+	</section>
+
+
+	<!--Footer-->
+	<!--<footer class="bg-white">
 	<div class="container mx-auto  px-8">
 
         <div class="w-full flex flex-col md:flex-row py-6">
@@ -533,98 +628,98 @@ This publication provides guidelines for participation of people with disabiliti
 
 
 
-  <!-- jQuery if you need it
+	<!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   -->
 
-<script>
+	<script>
+		var scrollpos = window.scrollY;
+		var header = document.getElementById("header");
+		var navcontent = document.getElementById("nav-content");
+		var navaction = document.getElementById("navAction");
+		var brandname = document.getElementById("brandname");
+		var toToggle = document.querySelectorAll(".toggleColour");
 
-	var scrollpos = window.scrollY;
-	var header = document.getElementById("header");
-	var navcontent = document.getElementById("nav-content");
-	var navaction = document.getElementById("navAction");
-	var brandname = document.getElementById("brandname");
-	var toToggle = document.querySelectorAll(".toggleColour");
+		document.addEventListener('scroll', function () {
 
-	document.addEventListener('scroll', function() {
+			/*Apply classes for slide in bar*/
+			scrollpos = window.scrollY;
 
-	/*Apply classes for slide in bar*/
-	scrollpos = window.scrollY;
+			if (scrollpos > 10) {
+				header.classList.add("bg-white");
+				navaction.classList.remove("bg-white");
+				navaction.classList.add("gradient");
+				navaction.classList.remove("text-gray-800");
+				navaction.classList.add("text-white");
+				//Use to switch toggleColour colours
+				for (var i = 0; i < toToggle.length; i++) {
+					toToggle[i].classList.add("text-gray-800");
+					toToggle[i].classList.remove("text-white");
+				}
+				header.classList.add("shadow");
+				navcontent.classList.remove("bg-gray-100");
+				navcontent.classList.add("bg-white");
+			} else {
+				header.classList.remove("bg-white");
+				navaction.classList.remove("gradient");
+				navaction.classList.add("bg-white");
+				navaction.classList.remove("text-white");
+				navaction.classList.add("text-gray-800");
+				//Use to switch toggleColour colours
+				for (var i = 0; i < toToggle.length; i++) {
+					toToggle[i].classList.add("text-white");
+					toToggle[i].classList.remove("text-gray-800");
+				}
 
-    if(scrollpos > 10){
-      header.classList.add("bg-white");
-	  navaction.classList.remove("bg-white");
-	  navaction.classList.add("gradient");
-	  navaction.classList.remove("text-gray-800");
-	  navaction.classList.add("text-white");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-gray-800");
-		 toToggle[i].classList.remove("text-white");
-	  }
-	  header.classList.add("shadow");
-	  navcontent.classList.remove("bg-gray-100");
-	  navcontent.classList.add("bg-white");
-    }
-    else {
-	  header.classList.remove("bg-white");
-	  navaction.classList.remove("gradient");
-	  navaction.classList.add("bg-white");
-	  navaction.classList.remove("text-white");
-	  navaction.classList.add("text-gray-800");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-white");
-		 toToggle[i].classList.remove("text-gray-800");
-	  }
-	  
-	  header.classList.remove("shadow");
-	  navcontent.classList.remove("bg-white");
-	  navcontent.classList.add("bg-gray-100");
-	  
-    }
+				header.classList.remove("shadow");
+				navcontent.classList.remove("bg-white");
+				navcontent.classList.add("bg-gray-100");
 
-	});
+			}
 
-	
-</script>
+		});
+	</script>
 
-<script>
-	
-	
-	/*Toggle dropdown list*/
-	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
-	
-	var navMenuDiv = document.getElementById("nav-content");
-	var navMenu = document.getElementById("nav-toggle");
-	
-	document.onclick = check;
-	function check(e){
-	  var target = (e && e.target) || (event && event.srcElement);
-	  
-	  //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-		// click NOT on the menu
-		if (checkParent(target, navMenu)) {
-		  // click on the link
-		  if (navMenuDiv.classList.contains("hidden")) {
-			navMenuDiv.classList.remove("hidden");
-		  } else {navMenuDiv.classList.add("hidden");}
-		} else {
-		  // click both outside link and outside menu, hide menu
-		  navMenuDiv.classList.add("hidden");
+	<script>
+		/*Toggle dropdown list*/
+		/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+		var navMenuDiv = document.getElementById("nav-content");
+		var navMenu = document.getElementById("nav-toggle");
+
+		document.onclick = check;
+
+		function check(e) {
+			var target = (e && e.target) || (event && event.srcElement);
+
+			//Nav Menu
+			if (!checkParent(target, navMenuDiv)) {
+				// click NOT on the menu
+				if (checkParent(target, navMenu)) {
+					// click on the link
+					if (navMenuDiv.classList.contains("hidden")) {
+						navMenuDiv.classList.remove("hidden");
+					} else {
+						navMenuDiv.classList.add("hidden");
+					}
+				} else {
+					// click both outside link and outside menu, hide menu
+					navMenuDiv.classList.add("hidden");
+				}
+			}
+
 		}
-	  }
-	  
-	}
-	function checkParent(t, elm) {
-	  while(t.parentNode) {
-		if( t == elm ) {return true;}
-		t = t.parentNode;
-	  }
-	  return false;
-	}
-</script>
+
+		function checkParent(t, elm) {
+			while (t.parentNode) {
+				if (t == elm) {
+					return true;
+				}
+				t = t.parentNode;
+			}
+			return false;
+		}
+	</script>
 
 
 </body>
