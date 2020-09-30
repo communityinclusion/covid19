@@ -21,6 +21,10 @@
 	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
 
 	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+
 		body {
 			font-family: Montserrat, sans-serif;
 		}
@@ -68,20 +72,28 @@
 				</button>
 			</div>
 
-			<!--<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-			<ul class="list-reset lg:flex justify-end flex-1 items-center">
-				<li class="mr-3">
-					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
-				</li>
-				<li class="mr-3">
-					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-				</li>
-				<li class="mr-3">
-					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-				</li>
-			</ul>
-			
-		</div>-->
+			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+				id="nav-content">
+				<ul class="list-reset lg:flex justify-end flex-1 items-center">
+					<li class="mr-3">
+						<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#gp">General
+							Publications</a>
+					</li>
+					<li class="mr-3">
+						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+							href="#sp">for Service Providers</a>
+					</li>
+					<li class="mr-3">
+						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+							href="#pwd">for People with Disabilities</a>
+					</li>
+					<li class="mr-3">
+						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+							href="#partners">Partner Resources</a>
+					</li>
+				</ul>
+
+			</div>
 		</div>
 
 		<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -152,11 +164,11 @@
 
 
 
-	<section class="bg-white border-b py-8 pubs">
+	<section id="gp" class="bg-white border-b py-8 pubs">
 
 		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
 
-			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">General Publications</h1>
+			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 pt-8">General Publications</h1>
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
@@ -222,7 +234,7 @@
 				</div>
 			</div>
 
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/CLE_issue10_V2_D2.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">A BRIEF LOOK AT COMMUNITY LIFE
@@ -257,11 +269,12 @@
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/TO41_COVID_F2.pdf"><img src="images/th/TO41_COVID_F2_th.png" alt="pdf download"></a>
+						<a href="pdf/TO41_COVID_F2.pdf"><img src="images/th/TO41_COVID_F2_th.png"
+								alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/COVID-19-Resources-National.docx"
 						class="flex flex-wrap no-underline hover:no-underline">
@@ -281,11 +294,17 @@
 					</div>
 				</div>
 			</div>
+	</section>
 
+	<section id="sp" class="bg-white border-b py-8 pubs">
+		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
 
-<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Publications for Service Providers</h1>
-			
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 pt-8">Publications for Service
+				Providers</h1>
+			<div class="w-full mb-4">
+				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+			</div>
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO32_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
@@ -301,8 +320,8 @@
 						<a href="pdf/TO32_COVID_F.pdf"><img src="images/th/TO32_COVID_thumb.png" alt="pdf download"></a>
 					</div>
 				</div>
-			</div>	
-			
+			</div>
+
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO35_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
@@ -323,7 +342,7 @@
 					</div>
 				</div>
 			</div>
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="/pdf/TO36_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
@@ -344,7 +363,7 @@
 			</div>
 
 
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO37_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
@@ -365,7 +384,7 @@
 			</div>
 
 
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO38_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
@@ -385,7 +404,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO40_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
@@ -404,7 +423,7 @@
 				</div>
 			</div>
 
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/Technology_Assessment_Worksheet-fill_in.docx"
 						download="pdf/Technology_Assessment_Worksheet-fill_in.docx"
@@ -428,7 +447,7 @@
 				</div>
 			</div>
 
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO42_COVID_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
@@ -442,83 +461,141 @@
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/TO42_COVID_F.pdf"><img src="images/th/TO42_COVID_F_th.png"
-								alt="pdf download"></a>
+						<a href="pdf/TO42_COVID_F.pdf"><img src="images/th/TO42_COVID_F_th.png" alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
-			
+
 
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="pdf/EmpFirstCOVID_communitybasedsupports_F.pdf" class="flex flex-wrap no-underline hover:no-underline">
+					<a href="pdf/EmpFirstCOVID_communitybasedsupports_F.pdf"
+						class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">EMPLOYMENT FIRST</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Community-Based Day Supports During the Pandemic</div>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Community-Based Day Supports During the
+							Pandemic</div>
 						<p class="text-gray-800 text-base px-6 mb-5">
-							Guide to providing non-work supports that are aligned with the CBDS objectives of providing opportunities for developing, enhancing, and maintaining competency in personal, social, and community activities.
+							Guide to providing non-work supports that are aligned with the CBDS objectives of providing
+							opportunities for developing, enhancing, and maintaining competency in personal, social, and
+							community activities.
 						</p>
 					</a>
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/EmpFirstCOVID_communitybasedsupports_F.pdf"><img src="images/th/EmpFirstCOVID_communitybasedsupports_F_th.png"
-								alt="pdf download"></a>
+						<a href="pdf/EmpFirstCOVID_communitybasedsupports_F.pdf"><img
+								src="images/th/EmpFirstCOVID_communitybasedsupports_F_th.png" alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
 
 			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="https://www.thinkwork.org/christina-mastering-job-remote-supports-during-covid-19" class="flex flex-wrap no-underline hover:no-underline">
+					<a href="https://www.thinkwork.org/christina-mastering-job-remote-supports-during-covid-19"
+						class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">THINKWORK - PROMISING PRACTICE</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Mastering a Job with Remote Supports During COVID-19</div>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Mastering a Job with Remote Supports
+							During COVID-19</div>
 						<p class="text-gray-800 text-base px-6 mb-5">
-							Christina is an energetic young woman who works at Bothwell Hospital in Sedalia, Missouri as a dietary aide. During the COVID-19 pandemic, Christina’s work conditions and responsibilities changed. As a result, the nature of her supports also shifted from having an on-site job coach to remote supports via iPhone. With the support of her provider, the Center for Human Services (CHS), Christina was able to alter her position and supports and maintain employment.
+							Christina is an energetic young woman who works at Bothwell Hospital in Sedalia, Missouri as
+							a dietary aide. During the COVID-19 pandemic, Christina’s work conditions and
+							responsibilities changed. As a result, the nature of her supports also shifted from having
+							an on-site job coach to remote supports via iPhone. With the support of her provider, the
+							Center for Human Services (CHS), Christina was able to alter her position and supports and
+							maintain employment.
 						</p>
 					</a>
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="https://www.thinkwork.org/christina-mastering-job-remote-supports-during-covid-19"><img src="images/th/christina-tw.png"
-								alt="visit website"></a>
+						<a href="https://www.thinkwork.org/christina-mastering-job-remote-supports-during-covid-19"><img
+								src="images/th/christina-tw.png" alt="visit website"></a>
 					</div>
 				</div>
 			</div>
 
-			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Guides for People with Disabilities</h1>
-<!--hail hail -->
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="pdf/TO44_individuals_focusonemployment_COVID.pdf" class="flex flex-wrap no-underline hover:no-underline">
+
+					<p class="w-full text-gray-600 text-xs md:text-sm px-6">THINKWORK - PROMISING PRACTICES</p>
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Information for Specific States</div>
+					<h5 class="font-bold text-l px-6 pt-8">Massachusetts</h5>
+					<p class="text-gray-800 text-base px-6 mb-5"><a
+							href="https://www.thinkwork.org/sites/default/files/files/MA2.pdf">Supplementing
+							Individualized Supports with a Virtual Support Group for Those Not Working Due to COVID-19
+						</a>
+						<p class="text-gray-800 text-base px-6 mb-5"><a
+								href="https://www.thinkwork.org/sites/default/files/files/MA1F2.pdf">Leveraging
+								Natural Supports for Essential Workers During COVID-19</a></p>
+						<h5 class="font-bold text-l px-6 ">Maryland</h5>
+						<p class="text-gray-800 text-base px-6 mb-5"><a
+								href="https://www.thinkwork.org/sites/default/files/files/MD.pdf">SEEC’s Stay-At-Home
+								Curriculum</a></p>
+
+						<h5 class="font-bold text-l px-6 ">Utah</h5>
+						<p class="text-gray-800 text-base px-6 mb-5"><a
+								href="https://www.thinkwork.org/sites/default/files/files/UTAH.pdf">Strategies
+								for Remaining Employed or Returning to Work During the COVID-19 Pandemic</a>
+							</a> </p>
+
+
+
+
+				</div>
+
+			</div>
+
+
+		</div>
+	</section>
+	<section id="pwd" class="bg-white border-b py-8 pubs">
+		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
+
+			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 pt-8">Guides for People with
+				Disabilities</h1>
+			<div class="w-full mb-4">
+				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+			</div>
+			<!--hail hail -->
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+					<a href="pdf/TO44_individuals_focusonemployment_COVID.pdf"
+						class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Keeping Your Focus on Employment During the COVID-19 Crisis: A Guide for People with Disabilities</div>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Keeping Your Focus on Employment During
+							the COVID-19 Crisis: A Guide for People with Disabilities</div>
 						<p class="text-gray-800 text-base px-6 mb-5">
-							Although there has been an increase in people not working and other challenges from the pandemic, it’s important for individuals to continue to focus on their employment goals. This guide can help.
+							Although there has been an increase in people not working and other challenges from the
+							pandemic, it’s important for individuals to continue to focus on their employment goals.
+							This guide can help.
 						</p>
 					</a>
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/TO44_individuals_focusonemployment_COVID.pdf"><img src="images/th/TO44_individuals_focusonemployment_COVID_th.png"
-								alt="pdf download"></a>
+						<a href="pdf/TO44_individuals_focusonemployment_COVID.pdf"><img
+								src="images/th/TO44_individuals_focusonemployment_COVID_th.png" alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
 
-<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-					<a href="pdf/TO43_individuals_tech_COVID.pdf" class="flex flex-wrap no-underline hover:no-underline">
+					<a href="pdf/TO43_individuals_tech_COVID.pdf"
+						class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Using Technology for Remote Services: A Guide for People with Disabilities</div>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Using Technology for Remote Services: A
+							Guide for People with Disabilities</div>
 						<p class="text-gray-800 text-base px-6 mb-5">
-							With so many individuals now receiving services remotely, it’s important to understand your options in terms of using technology. This guide provides a variety of practical ideas.
+							With so many individuals now receiving services remotely, it’s important to understand your
+							options in terms of using technology. This guide provides a variety of practical ideas.
 						</p>
 					</a>
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/TO43_individuals_tech_COVID.pdf"><img src="images/th/TO43_individuals_tech_COVID_th.png"
-								alt="pdf download"></a>
+						<a href="pdf/TO43_individuals_tech_COVID.pdf"><img
+								src="images/th/TO43_individuals_tech_COVID_th.png" alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
@@ -527,16 +604,18 @@
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO45.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">What is COVID-19 and Why Are So Many People Not Working</div>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">What is COVID-19 and Why Are So Many
+							People Not Working</div>
 						<p class="text-gray-800 text-base px-6 mb-5">
-						COVID-19 has had a major impact on people’s jobs, with many more people now out of work. This guide provides an overview of COVID-19, the impact it is having on people’s jobs, and what to do if you’re out of work.
+							COVID-19 has had a major impact on people’s jobs, with many more people now out of work.
+							This guide provides an overview of COVID-19, the impact it is having on people’s jobs, and
+							what to do if you’re out of work.
 						</p>
 					</a>
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/TO45.pdf"><img src="images/th/TO45_th.png"
-								alt="pdf download"></a>
+						<a href="pdf/TO45.pdf"><img src="images/th/TO45_th.png" alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
@@ -545,52 +624,38 @@
 				<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
 					<a href="pdf/TO46_working_during_COVID.pdf" class="flex flex-wrap no-underline hover:no-underline">
 						<p class="w-full text-gray-600 text-xs md:text-sm px-6">TOOLS FOR INCLUSION</p>
-						<div class="w-full font-bold text-xl text-gray-800 px-6">Working During the COVID-19 Pandemic</div>
+						<div class="w-full font-bold text-xl text-gray-800 px-6">Working During the COVID-19 Pandemic
+						</div>
 						<p class="text-gray-800 text-base px-6 mb-5">
-							For people who are working, COVID-19 has caused a lot of changes in the workplace. This guide discusses how to deal with those changes, and continue to keep yourself safe and healthy.
+							For people who are working, COVID-19 has caused a lot of changes in the workplace. This
+							guide discusses how to deal with those changes, and continue to keep yourself safe and
+							healthy.
 						</p>
 					</a>
 				</div>
 				<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
 					<div class="flex items-center justify-center">
-						<a href="pdf/TO46_working_during_COVID.pdf"><img src="images/th/TO46_working_during_COVID_th.png"
-								alt="pdf download"></a>
+						<a href="pdf/TO46_working_during_COVID.pdf"><img
+								src="images/th/TO46_working_during_COVID_th.png" alt="pdf download"></a>
 					</div>
 				</div>
 			</div>
 
-			
-			
-
-			
-
-			
-
-
-
-
-
-
-
-			
-
-			
-
-
 
 
 		</div>
-
+		</div>
 	</section>
-	<section class="bg-white border-b py-8 ">
-
+	<section id="partners" class="bg-white border-b py-8 pubs">
+		<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 pt-8 ">Partner Resources</h1>
+		<div class="w-full mb-4">
+			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+		</div>
 		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
 
-			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from Think
-				College</h1>
-			<div class="w-full mb-4">
-				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-			</div>
+			<h2 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from Think
+				College</h2>
+
 			<p class="text-gray-800 text-base px-6 mb-5">ICI’s Think College initiative has up-to-date resources to
 				support students with intellectual disabilities as they learn, work, and live in the time of COVID-19.
 			</p>
@@ -606,36 +671,32 @@
 						& Takeaways Resources on Current, COVID-related</a></li>
 			</ul>
 
-			<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from SELN</h1>
-			<div class="w-full mb-4">
-				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-			</div>
+			<h2 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Resources from SELN</h2>
+
 			<p class="text-gray-800 text-base px-6 mb-5">Resources from the State Employment Leadership Network (SELN),
 				including examples of policy directives from various states on provision of day and employment services.
 			</p>
 			<p class="text-gray-800 text-base px-6 mb-5"><a href="http://www.selnhub.org/COVID">selnhub.org/COVID</a>
 			</p>
-		<h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Vocational Rehabilitation (VR) Remote Services Strategies & Resources</h1>
+			<h2 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">Vocational Rehabilitation
+				(VR) Remote Services Strategies & Resources</h2>
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
-			
-<p class="text-gray-800 text-base px-6 mb-5">A series of briefs highlighting how VR counselors are sustaining remote services during COVID-19 and strategies and tools they expect to keep using after the pandemic ends.</p>
 
-<ul class="list-disc text-gray-800 text-base px-6 mb-5">
-				<li><a
-						href="pdf/RVR15_intro_F.pdf">VR Counselor Huddles: Providing VR Services Remotely</a></li>
-				<li><a
-						href="pdf/RVR16_F.pdf">VR Counselor Huddles: Accessing Virtual Mental Health Services Remotely</a></li>
-				<li><a
-						href="pdf/RVR17_F.pdf">VR Counselor Huddles: Providing Counseling and Guidance Remotely</a></li>
-						<li><a
-						href="pdf/RVR18_F.pdf">VR Counselor Huddles: Providing Transition Services Remotely</a></li>
-				<li><a
-						href="pdf/RVR19_F.pdf">VR Counselor Huddles: Providing Job Search Assistance Remotely</a></li>
-				<li><a
-						href="pdf/RVR20_F2.pdf">VR Counselor Huddles:
-Agencies for the Blind Providing Services Remotely</a></li>
+			<p class="text-gray-800 text-base px-6 mb-5">A series of briefs highlighting how VR counselors are
+				sustaining remote services during COVID-19 and strategies and tools they expect to keep using after the
+				pandemic ends.</p>
+
+			<ul class="list-disc text-gray-800 text-base px-6 mb-5">
+				<li><a href="pdf/RVR15_intro_F.pdf">VR Counselor Huddles: Providing VR Services Remotely</a></li>
+				<li><a href="pdf/RVR16_F.pdf">VR Counselor Huddles: Accessing Virtual Mental Health Services
+						Remotely</a></li>
+				<li><a href="pdf/RVR17_F.pdf">VR Counselor Huddles: Providing Counseling and Guidance Remotely</a></li>
+				<li><a href="pdf/RVR18_F.pdf">VR Counselor Huddles: Providing Transition Services Remotely</a></li>
+				<li><a href="pdf/RVR19_F.pdf">VR Counselor Huddles: Providing Job Search Assistance Remotely</a></li>
+				<li><a href="pdf/RVR20_F2.pdf">VR Counselor Huddles:
+						Agencies for the Blind Providing Services Remotely</a></li>
 			</ul>
 
 
@@ -766,22 +827,24 @@ Agencies for the Blind Providing Services Remotely</a></li>
 	<!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   -->
-  
-<div class="flex flex-wrap items-center -mx-1 overflow-hidden" style="background-color:#0075AD;">
 
-  <div class="items-center my-1 px-1 w-1/2 overflow-hidden md:w-full lg:w-1/2 xl:w-1/2">
-<center>
- <img src="images/ici-umb.png"  alt="UMass Boston ICI">
- </center>
-  </div>
+	<div class="flex flex-wrap items-center -mx-1 overflow-hidden" style="background-color:#0075AD;">
 
-  <div class="text-center my-1 px-1 w-1/2 overflow-hidden md:w-full lg:w-1/2 xl:w-1/2">
-    <p class="text-white">Copyright <script>document.write(new Date().getFullYear())</script> University of Massachusetts Boston</p>
-  </div>
+		<div class="items-center my-1 px-1 w-1/2 overflow-hidden md:w-full lg:w-1/2 xl:w-1/2">
+			<center>
+				<img src="images/ici-umb.png" alt="UMass Boston ICI">
+			</center>
+		</div>
+
+		<div class="text-center my-1 px-1 w-1/2 overflow-hidden md:w-full lg:w-1/2 xl:w-1/2">
+			<p class="text-white">Copyright <script>
+					document.write(new Date().getFullYear())
+				</script> University of Massachusetts Boston</p>
+		</div>
 
 
 
-</div>
+	</div>
 	<script>
 		var scrollpos = window.scrollY;
 		var header = document.getElementById("header");
